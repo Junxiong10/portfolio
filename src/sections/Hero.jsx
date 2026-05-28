@@ -167,6 +167,31 @@ export default function Hero() {
           onMouseEnter={e => { e.target.style.borderColor = 'var(--cyan)'; e.target.style.color = 'var(--cyan)' }}
           onMouseLeave={e => { e.target.style.borderColor = 'var(--border-hover)'; e.target.style.color = 'var(--text)' }}
           >GET IN TOUCH</a>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{
+            padding: '12px 28px',
+            border: '1px solid var(--border-hover)',
+            color: 'var(--text)',
+            fontFamily: 'var(--mono)',
+            fontSize: '0.82rem',
+            letterSpacing: '0.1em',
+            borderRadius: '4px',
+            transition: 'all 0.2s',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+          }}
+          onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--gold)'; e.currentTarget.style.color = 'var(--gold)' }}
+          onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-hover)'; e.currentTarget.style.color = 'var(--text)' }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10 9 9 9 8 9"/>
+            </svg>
+            RESUME
+          </a>
         </div>
 
         {/* Social links */}
