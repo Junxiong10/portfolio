@@ -4,7 +4,7 @@
   "framework": "vite",
   "headers": [
     {
-      "source": "/profile.jpeg",
+      "source": "/profile1.jpeg",
       "headers": [
         {
           "key": "Cache-Control",
@@ -24,7 +24,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!assets|profile\\.jpeg|favicon\\.svg|resume\\.pdf).*)",
+      "source": "/((?!assets|profile1\\.jpeg|favicon\\.svg|resume1\\.pdf).*)",
       "destination": "/index.html"
     }
   ]
