@@ -167,7 +167,7 @@ export default function Hero() {
           onMouseEnter={e => { e.target.style.borderColor = 'var(--cyan)'; e.target.style.color = 'var(--cyan)' }}
           onMouseLeave={e => { e.target.style.borderColor = 'var(--border-hover)'; e.target.style.color = 'var(--text)' }}
           >GET IN TOUCH</a>
-          <a href="/resume1.pdf" target="_blank" rel="noopener noreferrer" style={{
+          <a href="/resume3.pdf" target="_blank" rel="noopener noreferrer" style={{
             padding: '12px 28px',
             border: '1px solid var(--border-hover)',
             color: 'var(--text)',

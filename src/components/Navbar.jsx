@@ -57,7 +57,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="/resume1.pdf" target="_blank" rel="noopener noreferrer" style={{
+          <a href="/resume3.pdf" target="_blank" rel="noopener noreferrer" style={{
             padding: '6px 18px',
             border: '1px solid var(--cyan)',
             borderRadius: '4px',

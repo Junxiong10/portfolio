@@ -24,7 +24,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!assets|profile1\\.jpeg|favicon\\.svg|resume1\\.pdf).*)",
+      "source": "/((?!assets|profile1\\.jpeg|favicon\\.svg|resume3\\.pdf).*)",
       "destination": "/index.html"
     }
   ]
