@@ -4,7 +4,7 @@ const experiences = [
   {
     company: 'Beyondsoft Malaysia',
     role: 'AI Engineer',
-    period: 'Oct 2025 – Present',
+    period: 'Oct 2025 – April 2026',
     location: 'KL Eco City, Kuala Lumpur',
     tag: 'Full-time',
     color: '#00c8ff',
